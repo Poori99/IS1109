@@ -1,0 +1,104 @@
+ERROR - 2022-01-21 10:37:24 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-21 10:37:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xmap\htdocs\project-root\app\Controllers\Upload.php(43): CodeIgniter\Database\BaseConnection->query('insert into ima...')
+#2 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Upload->upload()
+#3 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#4 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xmap\htdocs\project-root\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xmap\\htdocs\\...')
+#7 {main}
+ERROR - 2022-01-21 10:39:21 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-21 10:39:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xmap\htdocs\project-root\app\Controllers\Upload.php(43): CodeIgniter\Database\BaseConnection->query('insert into ima...')
+#2 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Upload->upload()
+#3 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#4 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xmap\htdocs\project-root\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xmap\\htdocs\\...')
+#7 {main}
+ERROR - 2022-01-21 10:48:33 --> Table 'image_upload.image' doesn't exist
+CRITICAL - 2022-01-21 10:48:43 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ViewImages->index()
+#1 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewImages))
+#2 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xmap\htdocs\project-root\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xmap\\htdocs\\...')
+#5 {main}
+ERROR - 2022-01-21 11:01:26 --> Table 'image_upload.image' doesn't exist
+CRITICAL - 2022-01-21 11:01:31 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ViewImages->index()
+#1 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewImages))
+#2 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xmap\htdocs\project-root\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xmap\\htdocs\\...')
+#5 {main}
+CRITICAL - 2022-01-21 11:02:07 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ViewImages->index()
+#1 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewImages))
+#2 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xmap\htdocs\project-root\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xmap\\htdocs\\...')
+#5 {main}
+ERROR - 2022-01-21 11:04:28 --> Table 'image_upload.image' doesn't exist
+CRITICAL - 2022-01-21 11:04:30 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ViewImages->index()
+#1 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewImages))
+#2 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xmap\htdocs\project-root\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xmap\\htdocs\\...')
+#5 {main}
+ERROR - 2022-01-21 11:06:40 --> Table 'image_upload.image' doesn't exist
+CRITICAL - 2022-01-21 11:06:44 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ViewImages->index()
+#1 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewImages))
+#2 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xmap\htdocs\project-root\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xmap\\htdocs\\...')
+#5 {main}
+ERROR - 2022-01-21 11:34:00 --> Table 'image_upload.image' doesn't exist
+ERROR - 2022-01-21 11:34:02 --> Table 'image_upload.image' doesn't exist
+CRITICAL - 2022-01-21 11:34:02 --> Call to a member function getResult() on bool
+#0 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('view_images', Array, true)
+#3 D:\xmap\htdocs\project-root\app\Controllers\ViewImages.php(14): view('view_images', Array)
+#4 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ViewImages->index()
+#5 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewImages))
+#6 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xmap\htdocs\project-root\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xmap\\htdocs\\...')
+#9 {main}
+ERROR - 2022-01-21 11:44:40 --> Table 'image_upload.image' doesn't exist
+ERROR - 2022-01-21 11:44:52 --> Table 'image_upload.image' doesn't exist
+CRITICAL - 2022-01-21 11:44:52 --> Call to a member function getResult() on bool
+#0 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('view_images', Array, true)
+#3 D:\xmap\htdocs\project-root\app\Controllers\ViewImages.php(14): view('view_images', Array)
+#4 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ViewImages->index()
+#5 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewImages))
+#6 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xmap\htdocs\project-root\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xmap\\htdocs\\...')
+#9 {main}
+ERROR - 2022-01-21 11:46:37 --> Table 'image_upload.image' doesn't exist
+ERROR - 2022-01-21 11:47:05 --> Table 'image_upload.image' doesn't exist
+ERROR - 2022-01-21 11:47:30 --> Table 'image_upload.image' doesn't exist
+ERROR - 2022-01-21 11:47:46 --> Table 'image_upload.image' doesn't exist
+ERROR - 2022-01-21 11:47:48 --> Table 'image_upload.image' doesn't exist
+CRITICAL - 2022-01-21 11:47:48 --> Call to a member function getResult() on bool
+#0 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('view_images', Array, true)
+#3 D:\xmap\htdocs\project-root\app\Controllers\ViewImages.php(14): view('view_images', Array)
+#4 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\ViewImages->index()
+#5 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewImages))
+#6 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xmap\htdocs\project-root\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xmap\htdocs\project-root\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\xmap\\htdocs\\...')
+#9 {main}
+ERROR - 2022-01-21 11:48:43 --> Table 'image_upload.image' doesn't exist
